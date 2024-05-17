@@ -64,9 +64,15 @@
         justify-content: start;
         align-items: flex-start;
         text-align: left;
-        gap: 20px;
+        /* gap: 20px; */
         z-index: 9;
 
+    }
+    .site-header .nav-bar ul li  {
+       padding: 10px 0;
+    }
+    .site-header .nav-bar ul li a{
+        padding: 0;
     }
     .nav-bar  {
        position: fixed;
@@ -122,6 +128,7 @@ h3 {
     }
     .footer-logo {
         max-width: 200px;
+        margin: 0;
     }
     div#accordionExample {
         width: 95%;
@@ -176,14 +183,15 @@ h3 {
     }
     .footer-wrap {
         flex-direction: column;
+        align-items: flex-start;
     }
     .ptb-30 {
         padding: 20px 0;
     }
     .footer-links ul {
-        gap: 5px;
         flex-direction: column;
         margin-bottom: 20px;
+        align-items: flex-start;
     }
     .copy-right {
         justify-content: center;
