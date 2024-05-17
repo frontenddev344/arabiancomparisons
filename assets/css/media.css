@@ -111,8 +111,21 @@ h3 {
     padding: 10px 35px;
     font-size: 14px;
 }
+.site-header .social-links ul li {
+    height: 30px;
+    width: 30px;
+}
 }
 @media(max-width:767px){
+    .site-header .social-links {
+       display:none;
+    }
+    .footer-logo {
+        max-width: 200px;
+    }
+    div#accordionExample {
+        width: 95%;
+    }
     .contact-img {
         height: 350px;
         margin-bottom: 20px;
@@ -174,6 +187,10 @@ h3 {
     }
     .copy-right {
         justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .copy-right .social-links {
+        margin: 15px 0;
     }
     .sec-wrap{
         flex-direction: column-reverse;
