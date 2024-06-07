@@ -523,3 +523,13 @@ div#accordionExample {
   width: 80%;
   margin: 0 auto;
 }
+.morecontent a {
+  display: block;
+  background: #ddf3e7;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-top: 25px;
+  color: #000000;
+  font-weight: 500;
+}
