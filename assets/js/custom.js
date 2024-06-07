@@ -46,8 +46,8 @@ $(document).ready(function(){
     var showChar = 360;  // How many characters are shown by default
     var ellipsestext = "";
     
-    var moretext = "View Less";
-    var lesstext = "View More";
+    var moretext = "View More";
+    var lesstext = "View Less";
 
     $('.more').each(function() {
         var content = $(this).html();

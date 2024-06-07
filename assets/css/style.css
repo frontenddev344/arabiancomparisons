@@ -533,3 +533,6 @@ div#accordionExample {
   color: #000000;
   font-weight: 500;
 }
+span.morecontent span {
+  display: none;
+}
